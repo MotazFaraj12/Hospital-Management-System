@@ -1,0 +1,92 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@200&display=swap');
+
+.button{
+    -fx-background-radius: 10;
+    -fx-background-color: rgb(3, 3, 3);
+    -fx-border-color: #fdfdfd;
+    -fx-border-radius: 10;
+    -fx-font-size: 20px;
+    -fx-text-fill: #ffffff;
+    -fx-font-family: 'Raleway', sans-serif;
+}
+
+
+.button:hover{
+    -fx-background-color: #5c00fe;
+}
+
+.button:pressed{
+    -fx-background-color: #090909;
+}
+
+.text-field{
+    -fx-background-radius: 10;
+    -fx-border-color: #090909;
+    -fx-border-radius: 10;
+}
+
+.combo-box{
+    -fx-background-radius: 10;
+    -fx-border-color: #070707;
+    -fx-border-radius: 10;
+    -fx-background-color: #0a0a0a;
+}
+
+.table-view{
+    -fx-background-radius: 10;
+    -fx-border-color: #0e0e0e;
+    -fx-border-radius: 10;
+    -fx-background-color: transparent;
+}
+
+#buttonCurr{
+    -fx-background-radius: 10;
+    -fx-background-color: #0c0c0c;
+    -fx-border-color: #0c0c0c;
+    -fx-border-radius: 10;
+    -fx-font-size: 20px;
+    -fx-text-fill: #050505;
+    -fx-font-family: 'Raleway';
+}
+
+#buttonCurr:hover{
+
+}
+
+#buttonInv{
+    -fx-background-radius: 10;
+    -fx-background-color: #0e0e0e;
+    -fx-border-color: #090909;
+    -fx-border-radius: 10;
+    -fx-font-size: 20px;
+    -fx-text-fill: black;
+    -fx-font-family: 'Raleway';
+}
+
+#buttonInv:hover{
+    -fx-background-color: #070707;
+    -fx-text-fill: #090909;
+}
+
+#buttonInv:pressed {
+    -fx-background-color: #050505;
+    -fx-text-fill: #0a0a0a;
+}
+
+.label {
+    -fx-font-size: 15px;
+    -fx-font-family: 'Raleway', sans-serif;
+
+}
+
+#labelTable {
+    -fx-text-fill: #111111;
+}
+
+.table-view{
+    -fx-background-radius: 10;
+    -fx-border-color: #050505;
+    -fx-border-radius: 10;
+    -fx-background-color: transparent;
+}
